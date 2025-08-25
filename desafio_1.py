@@ -46,7 +46,7 @@ codigo_venda = 98568
 while True:
     print(f"Bem vindo a padaria Desespero, sou a atendente {nome_atendente}")
     escolha = input(f"Temos os pães: {nome_frances, nome_doce, nome_forma}. Qual pão você deseja?")
-    if escolha == nome_frances
+    if escolha == nome_frances:
     quantidade = int(imput("Qual a quantidade?"))
     if quantidade <= quantidade_frances:
         quantidade_frances -= quantidade
