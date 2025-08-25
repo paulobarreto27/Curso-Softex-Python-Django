@@ -6,7 +6,7 @@ desligar = 4
 
 while True:
     print(f"Digite um comando desejado")
-    escolha = int(input(f"o que você quer que o Robô faça): {1, 2, 3, 4}. "))
+    escolha = int(input(f"O que você quer que o Robô faça): {1, 2, 3, 4}. "))
     if escolha == 1:
         print("O robô anda para frente")
         posicao_inicial += 1
