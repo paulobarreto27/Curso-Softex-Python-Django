@@ -19,28 +19,28 @@ nome_frances = "frances"
 nome_doce = "doce"
 nome_forma = "forma"
 
-#
+# Valores dos pães
 valor_frances = 0.50
 valor_doce = 5.00
 valor_forma = 5.99
 
-#
+# Estoque de pães
 quantidade_frances = 15
 quantidade_doce = 20
 quantidade_forma = 18
 
-#
+# Nome da Atendente
 nome_atendente = "maria"
 
-#
+# Bairros de Entrega
 bairro_barroco = "barroco"
 bairro_sao_jose = "sao jose"
 
-#
+# Valores de frete
 frete_barroco = 5.00
 frete_são_jose = 15.00
 
-#
+# Código de venda
 codigo_venda = 98568
 
 while True:

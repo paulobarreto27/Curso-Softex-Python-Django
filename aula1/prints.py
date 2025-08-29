@@ -1,0 +1,7 @@
+nome = input ("Digite seu nome: ")
+sexo =input ("Digite seu sexo (M/F): ")
+idade = input ("Digite seu idade: ")
+print (nome, sexo, idade)
+print ("Seu nome é", nome)
+print ("Seu sexo é" , sexo)
+print ("Sua idade é", idade)
