@@ -50,3 +50,4 @@ if formar_triangulo(lA, lB, lC):
     print(f"Os lados {lA}, {lB}, {lC} FORMAM um triângulo!")
 else:
     print(f"Os lados {lA}, {lB}, {lC} NÃO formam um triângulo.")
+    
