@@ -3,7 +3,7 @@
 """ - A quantidade de palavras na frase"""
 """ - A quantidade de vogais (a, e, i, o, u)"""
 """ - A quantidade de consoantes"""
-""" Se a frase é um palíndormo"""
+""" Se a frase é um palíndromo"""
 
 
 def conta_palavras(texto: str) -> int:
@@ -57,9 +57,9 @@ total_vogais = conta_vogais(texto)
 total_consoante = conta_consoantes(texto)
 e_palindromo = palindromo(texto)
 print(" --- Resumo da Análise --- ")
-print(f"Palavras {total_palavras}")
-print(f"Vogais = {total_vogais}")
-print(f"Consoantes = {total_consoante}")
-print(f"É um palíndromo? = {e_palindromo}")
+print(f"Palavras: {total_palavras}")
+print(f"Vogais: {total_vogais}")
+print(f"Consoantes: {total_consoante}")
+print(f"É um palíndromo? {e_palindromo}")
 
 
