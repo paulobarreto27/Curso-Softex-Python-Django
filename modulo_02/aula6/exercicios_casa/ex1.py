@@ -7,12 +7,10 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
-    
 
-# cria um objeto do tipo classe Pessoa
 nova_pessoa = Pessoa("Paulo", 47)
 
-# nome e idade são atributos (variáves) da classe Pessoa
+
 print(nova_pessoa.nome)
 print(nova_pessoa.idade)
 
