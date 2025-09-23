@@ -10,12 +10,9 @@ class Pessoa:
         self.idade = idade
 
     
-
-# cria um objeto do tipo classe Pessoa
 nova_pessoa1 = Pessoa("João", 25)
 nova_pessoa2 = Pessoa("Maria", 30)
 
-# nome e idade são atributos (variáves) da classe Pessoa
 print(nova_pessoa1.nome)
 print(nova_pessoa1.idade)
 print(nova_pessoa2.nome)
