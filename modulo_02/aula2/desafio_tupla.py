@@ -1,4 +1,4 @@
-'''Desafio: Análise de Dados de Acessos
+''' Desafio: Análise de Dados de Acessos
 
 Sua tarefa é processar um fluxo de dados de acessos de usuários, identificando informações
 importantes e tratando possíveis erros. O programa deve pedir ao usuário para inserir dados
@@ -23,6 +23,6 @@ Instruções:
 válido. Se a conversão falhar, informe o usuário e descarte o registro, sem encerrar o
 programa.
 ● Se o status for "sucesso", adicione o usuário ao seu conjunto de usuários
-bem-sucedidos.'''
+bem-sucedidos. '''
 
 
