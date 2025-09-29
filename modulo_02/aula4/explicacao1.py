@@ -1,17 +1,7 @@
-# Criando função
-# 'def' define a função
+def exibir_pedido(item: str, *extras: str, **observacoes: str) -> None:
+    print(f"Item Principal: {item}")
+    print(f"Extras: {extras}")
+    print(f"Observações: {observacoes}")
 
-def diga_oi():
-    print("Oi! Tudo bemW")
 
-
-# Para rodar uma função criada (def), devemos "chamar" a função.
-diga_oi()
-
-# 'nome' é um parâmetro
-def saudar (nome):
-    print(f"Olá, {nome}!")
-
-# Passamos "Maria" para o parâmetro 'nome'
-saudar("Maria")
-saudar("João")
+exibir_pedido( "Pizza", "Queijo extra","Bacon", borda="recheada", ingrediente="tomate")
