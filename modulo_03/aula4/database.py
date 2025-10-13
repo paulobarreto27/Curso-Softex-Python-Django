@@ -4,7 +4,7 @@ import sqlite3
 class DatabaseConnection:
     """Gerencia a conexão com o banco de dados SQLite."""
 
-    def __init__(self, db_name="database.db"):
+    def __init__(self, db_name:str="database.db"):
         self.db_name = db_name
         self.conn = None
         self.cursor = None
