@@ -6,9 +6,8 @@ from hasher import hash_senha, verificar_senha
 class UserService:
 
     def __init__(self):
-        """
-        crie um atributo que receberá a UserModel como composição
-        """
+       
+       self.user_model = UserModel()
 
     def _safe_user_data(self, user) -> dict | None:
         """
