@@ -3,7 +3,14 @@ from django.http import HttpResponse
 
 # Create your views here.
 def home(request):
-    return HttpResponse("<h1>Olá, Mundo! Está é a minha primeira página Django!</h1>")
+    context = {
+        'nome_usuario': 'Júnior',
+        'tecnologias': ['Python','Django','HTML','CSS'],
+    }
+    #return HttpResponse("<h1>Olá, Mundo! Está é a minha primeira página Django!</h1>")
+    return render(request, 'home.html', context)
+def login(request):
+    return HttpResponse("<input>Login</input>")
 
 def serviços(request):
     return HttpResponse("<h1>Nossos Seviços</h1>")
