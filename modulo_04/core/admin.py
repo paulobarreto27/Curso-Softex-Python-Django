@@ -1,6 +1,5 @@
-from django.contrib import admin 
-from .models import Tarefa, Execucao  # 1. Importe seu Model 
+from django.contrib import admin
+from .models import Tarefa
 
-# 2. "Registre" seu Model no site de administração 
+# Register your models here.
 admin.site.register(Tarefa)
-admin.site.register(Execucao) 
